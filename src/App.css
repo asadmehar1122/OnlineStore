@@ -1,0 +1,177 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root{
+  --mainColor:#f57224;
+  --whiteColor:#fff;
+  --blackColor:#000;
+  --darkBlack:#222;
+}
+
+body{
+ font-family: 'lato', sans-serif;
+}
+nav{
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 1px 3px rgb(0 ,0,0,.1);
+  line-height: 70px;
+  display: flex;
+  padding: 0px 100px;
+  position: fixed;
+  top: 0;
+  color: #fafafa;
+  z-index: 99999;
+
+}
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  list-style: none;
+}
+nav a{
+  
+  text-decoration: none;
+
+}
+
+.left{
+  width: 50%;
+  text-align: left;
+  
+
+}
+.left a{
+  font-weight: 700;
+  color:var(--mainColor);
+  font-size: 25px;
+}
+.right{
+ width: 50%;
+  text-align: right;
+}
+.shoping-cart i{
+  display: inline-block;
+  color: var(--darkBlack);
+  font-size: 20px;
+  margin-right:15px ;
+
+}
+.cardCounter{
+  display: inline-block;
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  font-size: 12px;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+
+
+}
+/* for banner */
+
+.container{
+width: 100%;
+padding: 0 100px;
+}
+header{
+  width: 100%;
+  height: 500px;
+  background: url("../src/pictures/pexels-lina-kivaka-1524121.jpg");
+  margin-top: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.Text-header{
+  height: 100%;
+  width: 100%;
+  background: rgba(205, 187, 187, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Product{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+
+}
+.product{
+  width: 33%;
+  margin: 25px,0px;
+  
+  padding: 12px 10px;
+  overflow: hidden;
+  position: relative;
+
+}
+.hot{
+
+
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  background-color: #f57224;
+  padding: 5px 20px;
+}
+.new{
+
+
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  background-color:green;
+  padding: 5px 20px;
+}
+.product-image{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+.product-image img{
+  width: 100%;
+  height: 350px;
+}
+.product-detail{
+  font-size: 1.2rem;
+  font-weight: 20px;
+  text-align: center;
+  padding: 20px 12px;
+  border-left: 1px solid #fafafa;
+  border-right: 1px solid #fafafa;
+}
+.product-name{
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 12px 0;
+  color: var(--mainColor);
+}
+.product-price{
+  font-weight: 700;
+  margin: 12px 0px;
+
+}
+.add-cart{
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: var(--mainColor);
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--whiteColor);
+  width: 100%;
+}
+
+
+
+
+
